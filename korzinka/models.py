@@ -28,3 +28,4 @@ class Check(TimeStampModel):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     buy_time = models.DateTimeField(auto_now_add=True)
+shoxruh = "lox"
